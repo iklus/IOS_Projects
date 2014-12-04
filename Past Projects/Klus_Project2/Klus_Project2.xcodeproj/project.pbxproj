@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9460134519C89F6F007B5A5E /* Paint_can.png in Resources */ = {isa = PBXBuildFile; fileRef = 9460134419C89F6F007B5A5E /* Paint_can.png */; };
+		9460134819C8A3AC007B5A5E /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460134719C8A3AC007B5A5E /* ColorViewController.m */; };
+		949BF21519BF6830002618B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949BF21419BF6830002618B2 /* Foundation.framework */; };
+		949BF21719BF6830002618B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949BF21619BF6830002618B2 /* CoreGraphics.framework */; };
+		949BF21919BF6830002618B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949BF21819BF6830002618B2 /* UIKit.framework */; };
+		949BF21F19BF6830002618B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 949BF21D19BF6830002618B2 /* InfoPlist.strings */; };
+		949BF22119BF6830002618B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 949BF22019BF6830002618B2 /* main.m */; };
+		949BF22519BF6830002618B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 949BF22419BF6830002618B2 /* AppDelegate.m */; };
+		949BF22819BF6830002618B2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949BF22619BF6830002618B2 /* Main_iPhone.storyboard */; };
+		949BF22B19BF6830002618B2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949BF22919BF6830002618B2 /* Main_iPad.storyboard */; };
+		949BF22E19BF6830002618B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949BF22D19BF6830002618B2 /* ViewController.m */; };
+		949BF23019BF6830002618B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949BF22F19BF6830002618B2 /* Images.xcassets */; };
+		949BF23719BF6830002618B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949BF23619BF6830002618B2 /* XCTest.framework */; };
+		949BF23819BF6830002618B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949BF21419BF6830002618B2 /* Foundation.framework */; };
+		949BF23919BF6830002618B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949BF21819BF6830002618B2 /* UIKit.framework */; };
+		949BF24119BF6830002618B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 949BF23F19BF6830002618B2 /* InfoPlist.strings */; };
+		949BF24319BF6830002618B2 /* Klus_Project2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949BF24219BF6830002618B2 /* Klus_Project2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		949BF23A19BF6830002618B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 949BF20919BF6830002618B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949BF21019BF6830002618B2;
+			remoteInfo = Klus_Project2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9460134419C89F6F007B5A5E /* Paint_can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Paint_can.png; sourceTree = "<group>"; };
+		9460134619C8A3AC007B5A5E /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		9460134719C8A3AC007B5A5E /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		949BF21119BF6830002618B2 /* Klus_Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klus_Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		949BF21419BF6830002618B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		949BF21619BF6830002618B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		949BF21819BF6830002618B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		949BF21C19BF6830002618B2 /* Klus_Project2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Klus_Project2-Info.plist"; sourceTree = "<group>"; };
+		949BF21E19BF6830002618B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		949BF22019BF6830002618B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		949BF22219BF6830002618B2 /* Klus_Project2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Klus_Project2-Prefix.pch"; sourceTree = "<group>"; };
+		949BF22319BF6830002618B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		949BF22419BF6830002618B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		949BF22719BF6830002618B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		949BF22A19BF6830002618B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		949BF22C19BF6830002618B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		949BF22D19BF6830002618B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		949BF22F19BF6830002618B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		949BF23519BF6830002618B2 /* Klus_Project2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Klus_Project2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		949BF23619BF6830002618B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		949BF23E19BF6830002618B2 /* Klus_Project2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Klus_Project2Tests-Info.plist"; sourceTree = "<group>"; };
+		949BF24019BF6830002618B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		949BF24219BF6830002618B2 /* Klus_Project2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Klus_Project2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		949BF20E19BF6830002618B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949BF21719BF6830002618B2 /* CoreGraphics.framework in Frameworks */,
+				949BF21919BF6830002618B2 /* UIKit.framework in Frameworks */,
+				949BF21519BF6830002618B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949BF23219BF6830002618B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949BF23719BF6830002618B2 /* XCTest.framework in Frameworks */,
+				949BF23919BF6830002618B2 /* UIKit.framework in Frameworks */,
+				949BF23819BF6830002618B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		949BF20819BF6830002618B2 = {
+			isa = PBXGroup;
+			children = (
+				9460134419C89F6F007B5A5E /* Paint_can.png */,
+				949BF21A19BF6830002618B2 /* Klus_Project2 */,
+				949BF23C19BF6830002618B2 /* Klus_Project2Tests */,
+				949BF21319BF6830002618B2 /* Frameworks */,
+				949BF21219BF6830002618B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		949BF21219BF6830002618B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				949BF21119BF6830002618B2 /* Klus_Project2.app */,
+				949BF23519BF6830002618B2 /* Klus_Project2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		949BF21319BF6830002618B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949BF21419BF6830002618B2 /* Foundation.framework */,
+				949BF21619BF6830002618B2 /* CoreGraphics.framework */,
+				949BF21819BF6830002618B2 /* UIKit.framework */,
+				949BF23619BF6830002618B2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		949BF21A19BF6830002618B2 /* Klus_Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				949BF22319BF6830002618B2 /* AppDelegate.h */,
+				949BF22419BF6830002618B2 /* AppDelegate.m */,
+				949BF22619BF6830002618B2 /* Main_iPhone.storyboard */,
+				9460134619C8A3AC007B5A5E /* ColorViewController.h */,
+				9460134719C8A3AC007B5A5E /* ColorViewController.m */,
+				949BF22919BF6830002618B2 /* Main_iPad.storyboard */,
+				949BF22C19BF6830002618B2 /* ViewController.h */,
+				949BF22D19BF6830002618B2 /* ViewController.m */,
+				949BF22F19BF6830002618B2 /* Images.xcassets */,
+				949BF21B19BF6830002618B2 /* Supporting Files */,
+			);
+			path = Klus_Project2;
+			sourceTree = "<group>";
+		};
+		949BF21B19BF6830002618B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				949BF21C19BF6830002618B2 /* Klus_Project2-Info.plist */,
+				949BF21D19BF6830002618B2 /* InfoPlist.strings */,
+				949BF22019BF6830002618B2 /* main.m */,
+				949BF22219BF6830002618B2 /* Klus_Project2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		949BF23C19BF6830002618B2 /* Klus_Project2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				949BF24219BF6830002618B2 /* Klus_Project2Tests.m */,
+				949BF23D19BF6830002618B2 /* Supporting Files */,
+			);
+			path = Klus_Project2Tests;
+			sourceTree = "<group>";
+		};
+		949BF23D19BF6830002618B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				949BF23E19BF6830002618B2 /* Klus_Project2Tests-Info.plist */,
+				949BF23F19BF6830002618B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		949BF21019BF6830002618B2 /* Klus_Project2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949BF24619BF6830002618B2 /* Build configuration list for PBXNativeTarget "Klus_Project2" */;
+			buildPhases = (
+				949BF20D19BF6830002618B2 /* Sources */,
+				949BF20E19BF6830002618B2 /* Frameworks */,
+				949BF20F19BF6830002618B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klus_Project2;
+			productName = Klus_Project2;
+			productReference = 949BF21119BF6830002618B2 /* Klus_Project2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		949BF23419BF6830002618B2 /* Klus_Project2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949BF24919BF6830002618B2 /* Build configuration list for PBXNativeTarget "Klus_Project2Tests" */;
+			buildPhases = (
+				949BF23119BF6830002618B2 /* Sources */,
+				949BF23219BF6830002618B2 /* Frameworks */,
+				949BF23319BF6830002618B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949BF23B19BF6830002618B2 /* PBXTargetDependency */,
+			);
+			name = Klus_Project2Tests;
+			productName = Klus_Project2Tests;
+			productReference = 949BF23519BF6830002618B2 /* Klus_Project2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		949BF20919BF6830002618B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "University of Cincinnati";
+				TargetAttributes = {
+					949BF23419BF6830002618B2 = {
+						TestTargetID = 949BF21019BF6830002618B2;
+					};
+				};
+			};
+			buildConfigurationList = 949BF20C19BF6830002618B2 /* Build configuration list for PBXProject "Klus_Project2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 949BF20819BF6830002618B2;
+			productRefGroup = 949BF21219BF6830002618B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				949BF21019BF6830002618B2 /* Klus_Project2 */,
+				949BF23419BF6830002618B2 /* Klus_Project2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		949BF20F19BF6830002618B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949BF22B19BF6830002618B2 /* Main_iPad.storyboard in Resources */,
+				949BF23019BF6830002618B2 /* Images.xcassets in Resources */,
+				9460134519C89F6F007B5A5E /* Paint_can.png in Resources */,
+				949BF22819BF6830002618B2 /* Main_iPhone.storyboard in Resources */,
+				949BF21F19BF6830002618B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949BF23319BF6830002618B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949BF24119BF6830002618B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		949BF20D19BF6830002618B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949BF22E19BF6830002618B2 /* ViewController.m in Sources */,
+				949BF22519BF6830002618B2 /* AppDelegate.m in Sources */,
+				9460134819C8A3AC007B5A5E /* ColorViewController.m in Sources */,
+				949BF22119BF6830002618B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949BF23119BF6830002618B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949BF24319BF6830002618B2 /* Klus_Project2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		949BF23B19BF6830002618B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 949BF21019BF6830002618B2 /* Klus_Project2 */;
+			targetProxy = 949BF23A19BF6830002618B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		949BF21D19BF6830002618B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				949BF21E19BF6830002618B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		949BF22619BF6830002618B2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				949BF22719BF6830002618B2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		949BF22919BF6830002618B2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				949BF22A19BF6830002618B2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		949BF23F19BF6830002618B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				949BF24019BF6830002618B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		949BF24419BF6830002618B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		949BF24519BF6830002618B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		949BF24719BF6830002618B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klus_Project2/Klus_Project2-Prefix.pch";
+				INFOPLIST_FILE = "Klus_Project2/Klus_Project2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		949BF24819BF6830002618B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klus_Project2/Klus_Project2-Prefix.pch";
+				INFOPLIST_FILE = "Klus_Project2/Klus_Project2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		949BF24A19BF6830002618B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klus_Project2.app/Klus_Project2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klus_Project2/Klus_Project2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Klus_Project2Tests/Klus_Project2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		949BF24B19BF6830002618B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klus_Project2.app/Klus_Project2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klus_Project2/Klus_Project2-Prefix.pch";
+				INFOPLIST_FILE = "Klus_Project2Tests/Klus_Project2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		949BF20C19BF6830002618B2 /* Build configuration list for PBXProject "Klus_Project2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949BF24419BF6830002618B2 /* Debug */,
+				949BF24519BF6830002618B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949BF24619BF6830002618B2 /* Build configuration list for PBXNativeTarget "Klus_Project2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949BF24719BF6830002618B2 /* Debug */,
+				949BF24819BF6830002618B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949BF24919BF6830002618B2 /* Build configuration list for PBXNativeTarget "Klus_Project2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949BF24A19BF6830002618B2 /* Debug */,
+				949BF24B19BF6830002618B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 949BF20919BF6830002618B2 /* Project object */;
+}
